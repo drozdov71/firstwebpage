@@ -6,39 +6,61 @@
   font-family: Roboto, sans-serif;
 }
 .container {
-  width: 100%;
-  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
-  padding: 15px;
+  width: 90%;
+  max-width: 1219px; /*максимальная ширина может иметь другое значение*/
+  padding: 55px;
   padding-top: 30px;
   margin: 0 auto;
+}
+section {
+  margin: auto;
 }
 body {
   margin: 0px;
   font-family: Roboto, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
 }
 .jumbotron {
   background: url("./images/image1.png");
-  background-size: cover;
-}
-.theproblem {
-  background-color: #eeeeee;
-}
-h1 {
+  background-size: 100%;
+  line-height: 30vw;
+  height: 30vw;
+  margin-top: -85px;
   color: white;
   text-align: center;
 }
-
+.theproblem {
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+.team {
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+.ppc {
+  padding-top: 65px;
+  padding-bottom: 80px;
+}
+h1 {
+  text-align: center;
+}
 h2 {
   text-align: center;
+  color: #007765;
 }
 p {
   text-align: center;
 }
 .hero {
   background: url("./images/image2.png");
-  background-size: cover;
+  background-size: 100%;
   color: white;
   text-align: center;
+  background-size: 100%;
+  line-height: 30vw;
+  height: 30vw;
+  margin-top: -16px;
 }
 .footer {
   color: white;

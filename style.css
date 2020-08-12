@@ -1,0 +1,61 @@
+.header {
+  background-color: #007765;
+  height: 85px;
+  position: sticky;
+  top: 0;
+  font-family: Roboto, sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding: 15px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+body {
+  margin: 0px;
+  font-family: Roboto, sans-serif;
+}
+.jumbotron {
+  background: url("./images/image1.png");
+  background-size: cover;
+}
+.theproblem {
+  background-color: #eeeeee;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.hero {
+  background: url("./images/image2.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.footer {
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-family: Roboto, sans-serif;
+}
+nav a {
+  display: inline;
+}
+nav {
+  float: right;
+  text-align: center;
+}
+.logo {
+  float: left;
+}
+table {
+  margin: auto;
+}

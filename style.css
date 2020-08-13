@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+  max-width: 2100px;
+
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+/* Header */
+.main__container {
+  width: 100%;
+  max-width: 2100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navigation {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header {
+  height: 84px;
+  top: 0;
+  background-color: #007765;
+  position: sticky;
+}
+
+.menu {
+  font-size: 28px;
+  color: #fff;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("images/image1.png");
+  background-size: cover;
+  height: 10vw;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+h1 {
+  font-size: 72px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 84px;
+}
+
+/* The problem */
+
+.title {
+  font-size: 64px;
+  color: #007765;
+}
+.theproblemtext {
+  font-size: 32px;
+}
+
+/* Hero */
+
+.hero {
+  background-image: url("images/image2.png");
+  background-size: 100%;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.message {
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* PPC */
+.logoppc {
+  float: left;
+}
+
+.ppctext {
+  font-size: 32px;
+}
+
+/* Team */
+
+.name {
+  color: #007765;
+}
+
+table {
+  margin: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  height: 90px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footertext {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#theproblem,
+#piedpipercoin,
+#theteam {
+  border-top: 84px solid transparent;
+  margin-top: -84px;
+  background-clip: padding-box;
+}

@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pied Piper</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--Header-->
     <header class="header">
       <div class="main_container">
         <div class="navigation">
-          <div class="logo"><img src="images/logo.png" alt="logo" /></div>
+          <div class="logo"><img src="images/logo.svg" alt="logo" /></div>
           <nav class="menu">
             <a href="#theproblem"> The problem</a>
             <a href="#piedpipercoin">PiedPiperCoin</a>
@@ -28,7 +29,7 @@
     <!--The Problem-->
     <section class="theproblem">
       <div class="main_container">
-        <h2>The Problem</h2>
+        <h2 class="title" id="theproblem">The Problem</h2>
         <div class="theproblemtext">
           <p>
             Beneath the flashy homepages of your favorite sites lurk Hooli™ and
@@ -54,7 +55,7 @@
       </div>
     </section>
     <!--Hero-->
-    <section class="theproblem">
+    <section class="hero">
       <div class="main_container">
         <div class="message">
           We’re in this together! All of our computers and phones join in a
@@ -65,7 +66,7 @@
     <!--PPC-->
     <section class="ppc">
       <div class="main_container">
-        <h2>Introducing PiedPiperCoin</h2>
+        <h2 class="title" id="piedpipercoin">Introducing PiedPiperCoin</h2>
         <div class="ppctext">
           <div class="logoppc">
             <img src="images/PPCLogo.svg" alt="ppclogo" />
@@ -91,36 +92,49 @@
     <!--Team-->
     <section class="team">
       <div class="main_container">
-        <h2>The Team</h2>
+        <h2 class="title" id="theteam">The Team</h2>
         <div class="table">
           <table>
             <tr>
               <td>
-                <img src="images/image3.svg" alt="photo1" /> <br />Richard
-                Hendricks <br />
+                <img src="images/image3.svg" alt="photo1" />
+                <p class="name">Richard Hendricks</p>
                 <em>Founder & CEO</em>
               </td>
               <td>
-                <img src="images/image4.svg" alt="photo2" /> <br />Dinesh
-                Chugtai <br /><em>Senior Programmer</em>
+                <img src="images/image4.svg" alt="photo2" />
+                <p class="name">Dinesh Chugtai</p>
+                <em>Senior Programmer</em>
               </td>
               <td>
-                <img src="images/image5.svg" alt="photo3" /> <br />
-                Bertram Gilfoylei <br /><em>Chief Systems Architect</em>
+                <img src="images/image5.svg" alt="photo3" />
+                <p class="name">
+                  Bertram Gilfoylei
+                </p>
+                <em>Chief Systems Architect</em>
               </td>
             </tr>
             <tr>
               <td>
-                <img src="images/image6.svg" alt="photo4" /> <br />
-                Jared Dunn <br /><em>Chief Operating Officer</em>
+                <img src="images/image6.svg" alt="photo4" />
+                <p class="name">
+                  Jared Dunn
+                </p>
+                <em>Chief Operating Officer</em>
               </td>
               <td>
-                <img src="images/image7.svg" alt="photo5" /> <br />
-                Monica Hall <br /><em>Chief Financial Officer</em>
+                <img src="images/image7.svg" alt="photo5" />
+                <p class="name">
+                  Monica Hall
+                </p>
+                <em>Chief Financial Officer</em>
               </td>
               <td>
-                <img src="images/image8.svg" alt="photo6" /> <br />
-                Nelson Bighetti <br /><em>Majority Investor</em>
+                <img src="images/image8.svg" alt="photo6" />
+                <p class="name">
+                  Nelson Bighetti
+                </p>
+                <em>Majority Investor</em>
               </td>
             </tr>
           </table>
@@ -130,7 +144,7 @@
     <!--Footer-->
     <footer class="footer">
       <div class="main_container">
-        <div>
+        <div class="footertext">
           <p>
             All other trademarks and copyrights are the property of their
             respective owners. Use of these names, trademarks and brands does

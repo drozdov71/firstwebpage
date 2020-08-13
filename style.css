@@ -33,14 +33,23 @@ body {
 .theproblem {
   padding-top: 65px;
   padding-bottom: 80px;
+  font-size: 32px;
 }
+figure {
+  margin-top: 0px;
+  float: left;
+}
+
 .team {
   padding-top: 45px;
   padding-bottom: 80px;
+  font-size: 20px;
+}
 }
 .ppc {
-  padding-top: 65px;
-  padding-bottom: 80px;
+
+  font-size: 32px;
+  margin-top: 95px;
 }
 h1 {
   text-align: center;
@@ -58,9 +67,10 @@ p {
   color: white;
   text-align: center;
   background-size: 100%;
-  line-height: 30vw;
+  line-height: 58px;
   height: 30vw;
   margin-top: -16px;
+  font-size: 32px;
 }
 .footer {
   color: white;

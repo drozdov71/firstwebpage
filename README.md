@@ -1,6 +1,6 @@
-HW 3 from Stepik web course "Web Development for Beginners: HTML and CSS" https://stepik.org/course/38218/
+Build web page from psd template.
 
-Build web page from psd template. 
+HW 3 from Stepik web course "Web Development for Beginners: HTML and CSS" https://stepik.org/course/38218/
 
 To make up a landing page - to turn the drawn layout into a working page in HTML and CSS.
 
